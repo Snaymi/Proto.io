@@ -7,6 +7,9 @@
     --gray-color-200: #747DA4;
     --dark-black: #111111;
 }
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
+}
 @import url('https://fonts.cdnfonts.com/css/red-hat-display');
 *{
     box-sizing: border-box;
@@ -47,10 +50,10 @@ body{
     color: var(--secondary-color);
     padding: 5px 15px;
     border-radius: 12px;
-    transition: 300ms ease;
 }
 .menu  .donate:hover{
-    transform: scale(1.05);
+  animation: pulse 300ms;
+  box-shadow: 0 0 0 3px var(--primary-color);
     color: var(--dark-color);
 }
 .media{
