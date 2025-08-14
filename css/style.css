@@ -77,6 +77,7 @@ body{
     margin-top:10px;
     background-color: var(--gray-color-100);
     display: flex;
+    border-radius: 24px;
 }
 .content{
     padding: 25px 50px;
@@ -113,4 +114,22 @@ body{
     padding: 5px 10px;
     background-color: #454F76;
     border-radius: 4px;
+}
+.logo-valorant{
+    background-color: var(--primary-color);
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.middle-content{
+    font-size: 48px;
+    font-weight: 600; 
+}
+.details .bottom-content{
+    line-height: 100%;
+    color: var(--gray-color-200);
+}
+.brtt-achievements{
+    display: flex;
+    column-gap: 50px;
+    padding: 20px 0 10px 10px;
 }
